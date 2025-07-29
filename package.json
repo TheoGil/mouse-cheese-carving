@@ -1,0 +1,24 @@
+{
+  "name": "mouse-cheese-carving",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/earcut": "^3.0.0",
+    "@types/matter-js": "^0.19.8",
+    "typescript": "~5.8.3",
+    "vite": "^7.0.4"
+  },
+  "dependencies": {
+    "earcut": "^3.0.2",
+    "fernandez-polygon-decomposition": "^2.0.0",
+    "matter-js": "^0.20.0",
+    "polygon-clipping": "^0.15.7",
+    "polyk": "^0.24.0"
+  }
+}
