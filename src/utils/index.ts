@@ -8,3 +8,4 @@ export * from "./use2DPhysics";
 export * from "./createPhysicalBodyFromTriangulatedPolygon";
 export * from "./translatePolygon";
 export * from "./rotatePolygon";
+export * from "./clipPolygon";
