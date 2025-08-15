@@ -162,4 +162,26 @@ const TEST_DATA_POLYGON_WITH_HOLE: Position[][] = [
   ],
 ];
 
-export { TEST_DATA_POLYGON_WITH_HOLE };
+const TEST_DATA_EPIC_LOGO = [
+  [
+    [88, 37.8],
+    [69.075, 26.5],
+    [69.075, 4],
+    [12, 37.8],
+    [12, 82.8],
+    [31.025, 94],
+    [50.05, 82.8],
+    [31.025, 71.5],
+    [31.025, 49],
+    [50.05, 60.3],
+    [69.075, 49],
+    [69.075, 71.5],
+    [50.05, 82.8],
+    [69.075, 94],
+    [88, 82.8],
+    [88, 47.71],
+    [88, 37.8],
+  ],
+];
+
+export { TEST_DATA_POLYGON_WITH_HOLE, TEST_DATA_EPIC_LOGO };

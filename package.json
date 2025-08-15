@@ -20,6 +20,7 @@
     "fernandez-polygon-decomposition": "^2.0.0",
     "matter-js": "^0.20.0",
     "polygon-clipping": "^0.15.7",
-    "polyk": "^0.24.0"
+    "polyk": "^0.24.0",
+    "svg-path-parser": "^1.1.0"
   }
 }

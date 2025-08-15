@@ -11,7 +11,7 @@ export function renderPolygon(
 
   // If a polygon contains multiple rings, first ring represents the "surface" and the next one represents "holes" in the "surface".
   // https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes#shapes_with_holes
-  polygon.geometry.coordinates.forEach((ring) => {
+  polygon.forEach((ring) => {
     ring.forEach((point, pointIndex) => {
       if (pointIndex === 0) {
         ctx.moveTo(point[0], point[1]);
